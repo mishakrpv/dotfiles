@@ -11,5 +11,5 @@ set -g theme_hide_hostname no
 set -g theme_hostname always
 
 # Go
-set -g GOPATH $HOME/go
+set -g GOPATH /usr/local/go
 set -gx PATH $GOPATH/bin $PATH
