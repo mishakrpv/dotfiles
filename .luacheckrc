@@ -1,3 +1,3 @@
 globals = {
-    vim = true
+    vim = { description = "Neovim API", type = "table" }
 }
