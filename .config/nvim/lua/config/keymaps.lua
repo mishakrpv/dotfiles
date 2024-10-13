@@ -8,7 +8,7 @@ keymap.set("n", "<leader>pv", vim.cmd.Ex, defaults)
 
 keymap.set("n", "<leader>qq", ":q<return>", defaults)
 
-keymap.set("n", '<C-f>', ":!gofmt -w %<return>",defaults)
+keymap.set("n", '<C-f>', ":%!goimports<return>",defaults)
 
 -- Window navigation
 keymap.set("n", "<C-h>", "<C-w>h", defaults)

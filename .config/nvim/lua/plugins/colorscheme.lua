@@ -1,5 +1,8 @@
 return {
     {
+        "sainnhe/gruvbox-material"
+    },
+    {
         "rose-pine/neovim",
         name = "rose-pine",
         opts = {
