@@ -1,28 +1,16 @@
 *
 !README.md
+!.gitmodules
 
 !/.config
 
-!/.config/nvim/
-!/.config/nvim/**
-
-lazy-lock.json
+# !/.config/nvim/
+# !/.config/nvim/**
 
 !/.config/tmux/
 !/.config/tmux/tmux.conf
 
 !/.config/fish/
 !/.config/fish/*.fish
-
-!/.scripts/
-!/.scripts/**
-
-!/.poshthemes/
-!/.poshthemes/**
-
-!/.local/
-!/.local/share/
-!/.local/share/backgrounds/
-!/.local/share/backgrounds/**
 
 .vscode/
