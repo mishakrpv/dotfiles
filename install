@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+
+pushd $CONFIG_DIR
+for dir in $(echo $STOW_DIRS | sed "s/,/ /g"); do
+    echo "stow $dir"
+    stow -D $dir
+    stow $dir
+done
+popd

@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+
+if [[ -z $STOW_DIRS ]]; then
+    STOW_DIRS="i3,alacritty,nvim,tmux,fish,rofi,zsh"
+fi
+
+if [[ -z $CONFIG_DIR ]]; then
+    CONFIG_DIR=$HOME/.config
+fi
+
+STOW_DIRS=$STOW_DIRS CONFIG_DIR=$CONFIG_DIR $CONFIG_DIR/install
